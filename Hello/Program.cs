@@ -20,12 +20,20 @@ namespace Hello
             Console.WriteLine("Enter ur name");
             String name = Console.ReadLine();
             //Data types in c# programming language
-            int age = 25;
+            //4 bytes
+            int age = 25;  
+            //8 bytes
             double height = 5.9;
+            //1 bytes
             bool isStudent = true;
+            //2 bytes per char
             string studentId = "S12345";
-            float weight = 70.5f;
+            //4 bytes
+            float weight = 70.5F;
+            //2 byte
             char gender = 'M';
+            //8 bytes
+            long number = 2345678976542234567L;
 
             Console.WriteLine("Hello" + name);
             Console.WriteLine("Age: " + age);
