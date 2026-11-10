@@ -11,6 +11,7 @@ namespace Hello
     {
         static void Main(string[] args)
         {
+            // My first Git and GitHub practice
             //This is my first program im learning c# programming language
             /*
              * This is a multi line comment
